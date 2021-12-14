@@ -1,0 +1,44 @@
+# built application files
+/*/build
+
+# generated files
+bin/
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+crashlytics-build.properties
+
+# Mac OS finder
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/*
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+
+*.keystore
+*.jks
+
+fabric.properties
+secrets/keystore.properties
+secrets/project.properties
+secrets/google-api.json
+secrets/firebase-app-distribution.json
+/app/schemas/
+
+# GraphQL schema and Apollo generated schema file
+schema.json
+schema.json.graphql
